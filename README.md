@@ -1,4 +1,4 @@
-This project contains the source code of the Self-Interpolation Method (SIM).
+This project contains the R source code of the Self-Interpolation Method (SIM).
 
 This algorithm builds a Digital Terrain Model (DTM) from a Digital Surface Model (DSM) given as input.
 
