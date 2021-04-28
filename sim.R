@@ -7,7 +7,7 @@
 
 
 # Input :
-# - dsm : dsm to be filtered in raster R format
+# - dsm : dsm to be filtered (in raster R format)
 # Parameters :
 # - d : window size
 # - k : number of iterations to be performed
