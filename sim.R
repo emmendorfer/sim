@@ -18,11 +18,8 @@
 
 
 idw<-function(x,p) {
-
-
 n<-dim(x)[1]
 m<-dim(p)[1]
-
 yidwr=matrix(0,m,1)
 yidw=matrix(0,m,1)
 
@@ -41,11 +38,8 @@ w=ddist^(-2)
 s=1/sum(w)
 w=w*s
 yidw[j]<-sum(w*y)
-#yidwr[j]<-yidw[j]+n*(sum(y)-n*yidw[j])/(n^2-sum(ddist^(-2))*sum(ddist^2))
-
 }
 return(yidw)
-
 }
 
 
@@ -53,7 +47,6 @@ return(yidw)
 sim <-function(DSM,k=3,d=5) {
 #Self-interpolation method (SIM)
 #Iterative approach for building a DTM from a DSM
-
 
 tamq=d
 DTM <- DSM
@@ -81,7 +74,7 @@ for (rep in 1:k){
 			lim4=ncol(MNS)
 			lim3=lim4-tamq+1
 		}	
-            p<-t(c(i,j))  
+                p<-t(c(i,j))  
 		xt=matrix(0,tamq*tamq,3)
 		post=0
 		for (ii in lim1:lim2)
@@ -104,11 +97,11 @@ for (rep in 1:k){
 		}
            }
        }
-	}
-  MNS=MNS_new
+    }
+ MNS=MNS_new
  }
-values(DTM)<-MNS
-return(DTM)
+ values(DTM)<-MNS
+ return(DTM)
 }
 
 
