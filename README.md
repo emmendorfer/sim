@@ -4,7 +4,7 @@ This algorithm builds a Digital Terrain Model (DTM) from a Digital Surface Model
 The "raster" R package is required.
 
 # Input :
-# - dsm : dsm to be filtered in raster R format
+# - dsm : dsm to be filtered (in raster R format)
 # Parameters :
 # - d : window size 
 # - k : number of iterations to be performed
