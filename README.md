@@ -12,5 +12,4 @@ The "raster" R package is required.
 #  - filtered dtm 
 
 The method is described and evaluated in the paper:
-L.R. Emmendorfer, I.B. Emmendorfer, L.P.M. de Almeida, D.C.L. Alves and J.A. Neto. A Self-Interpolation Method for Digital Terrain Model Generation (submitted), 2021.
-
+L.R. Emmendorfer, I.B. Emmendorfer, L.P.M. de Almeida, D.C.L. Alves and J.A. Neto (2021) A Self-interpolation Method for Digital Terrain Model Generation. In: Gervasi O. et al. (eds) Computational Science and Its Applications – ICCSA 2021. ICCSA 2021. Lecture Notes in Computer Science, vol 12949. Springer, Cham. https://doi.org/10.1007/978-3-030-86653-2_26
